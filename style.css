@@ -1,0 +1,185 @@
+﻿/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+
+header .logo img {
+    height: 50px;
+}
+
+
+header nav ul {
+    list-style: none;
+}
+
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Hero Section */
+.hero {
+    background-color: #f4f4f4;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+
+.cta-button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Features Section */
+.features {
+    padding: 50px 20px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+
+.features h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+.feature-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+
+.feature-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+
+.feature-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+
+.feature-card p {
+    font-size: 1em;
+}
+
+
+/* Demo Section */
+.demo {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+.demo form input {
+    margin: 10px;
+    padding: 15px;
+    width: 60%;
+    font-size: 1em;
+}
+
+
+.demo form button {
+    padding: 15px 30px;
+    font-size: 1.1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.demo form button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+.contact p {
+    font-size: 1.2em;
+}
+
+
+/* Footer Section */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+
+footer p {
+    font-size: 1em;
+}
